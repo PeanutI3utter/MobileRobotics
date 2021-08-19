@@ -1,0 +1,85 @@
+[0.073s] Invoking command in '/opt/persistent_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /opt/persistent_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/turtlebot3_fake_node
+[1.061s] -- The C compiler identification is GNU 9.3.0
+[1.062s] -- The CXX compiler identification is GNU 9.3.0
+[1.062s] -- Check for working C compiler: /usr/bin/cc
+[1.068s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.068s] -- Detecting C compiler ABI info
+[1.469s] -- Detecting C compiler ABI info - done
+[1.548s] -- Detecting C compile features
+[1.550s] -- Detecting C compile features - done
+[1.559s] -- Check for working CXX compiler: /usr/bin/c++
+[1.859s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.863s] -- Detecting CXX compiler ABI info
+[2.140s] -- Detecting CXX compiler ABI info - done
+[2.239s] -- Detecting CXX compile features
+[2.245s] -- Detecting CXX compile features - done
+[2.264s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.375s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.377s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.299s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.539s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.973s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.097s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.940s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.267s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.549s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.559s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.563s] -- Looking for pthread.h
+[5.859s] -- Looking for pthread.h - found
+[5.859s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.159s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.161s] -- Looking for pthread_create in pthreads
+[6.297s] -- Looking for pthread_create in pthreads - not found
+[6.297s] -- Looking for pthread_create in pthread
+[6.496s] -- Looking for pthread_create in pthread - found
+[6.500s] -- Found Threads: TRUE  
+[7.135s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.480s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[7.535s] -- Found tf2_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[8.395s] -- Found turtlebot3_msgs: 2.2.1 (/opt/persistent_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[9.014s] -- Configuring done
+[9.056s] -- Generating done
+[9.061s] -- Build files have been written to: /opt/persistent_ws/build/turtlebot3_fake_node
+[9.082s] Invoked command in '/opt/persistent_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /opt/persistent_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/turtlebot3_fake_node
+[9.089s] Invoking command in '/opt/persistent_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/persistent_ws/build/turtlebot3_fake_node -- -j8 -l8
+[9.212s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[9.365s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[24.328s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[25.315s] [100%] Built target turtlebot3_fake_node
+[25.352s] Invoked command in '/opt/persistent_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/persistent_ws/build/turtlebot3_fake_node -- -j8 -l8
+[25.419s] Invoking command in '/opt/persistent_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/persistent_ws/build/turtlebot3_fake_node
+[25.446s] -- Install configuration: ""
+[25.446s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[25.453s] -- Set runtime path of "/opt/persistent_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[25.454s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[25.454s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[25.456s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[25.457s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[25.457s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[25.458s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[25.458s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[25.459s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz
+[25.460s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[25.460s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/include/
+[25.461s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[25.461s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[25.462s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[25.462s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[25.463s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[25.463s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[25.466s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[25.467s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[25.467s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[25.468s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[25.468s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[25.469s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[25.472s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[25.473s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[25.473s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.474s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.499s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[25.499s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[25.500s] -- Installing: /opt/persistent_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[25.500s] Invoked command in '/opt/persistent_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/persistent_ws/build/turtlebot3_fake_node

@@ -1,0 +1,266 @@
+[0.128s] Invoking command in '/opt/persistent_ws/build/dynamic_logistics_warehouse': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /opt/persistent_ws/src/dynamic_logistics_warehouse -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/dynamic_logistics_warehouse
+[0.447s] -- The C compiler identification is GNU 9.3.0
+[0.634s] -- The CXX compiler identification is GNU 9.3.0
+[0.658s] -- Check for working C compiler: /usr/bin/cc
+[1.019s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.023s] -- Detecting C compiler ABI info
+[1.352s] -- Detecting C compiler ABI info - done
+[1.410s] -- Detecting C compile features
+[1.413s] -- Detecting C compile features - done
+[1.423s] -- Check for working CXX compiler: /usr/bin/c++
+[1.803s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.807s] -- Detecting CXX compiler ABI info
+[2.059s] -- Detecting CXX compiler ABI info - done
+[2.114s] -- Detecting CXX compile features
+[2.116s] -- Detecting CXX compile features - done
+[2.138s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.146s] -- Checking for module 'bullet>=2.82'
+[2.194s] --   Found bullet, version 2.88
+[2.614s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.764s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.925s] -- Found assimp: /usr/include (found version "5.0.0") 
+[3.056s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.020s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.108s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[4.147s] -- Looking for ignition-math6 -- found version 6.8.0
+[4.202s] -- Searching for dependencies of ignition-math6
+[4.212s] -- Looking for OGRE...
+[4.219s] -- OGRE_PREFIX_WATCH changed.
+[4.246s] -- Checking for module 'OGRE'
+[4.300s] --   Found OGRE, version 1.9.0
+[4.536s] -- Found Ogre Ghadamon (1.9.0)
+[4.565s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.626s] -- Looking for OGRE_Paging...
+[4.646s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.646s] -- Looking for OGRE_Terrain...
+[4.688s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.689s] -- Looking for OGRE_Property...
+[4.713s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.713s] -- Looking for OGRE_RTShaderSystem...
+[4.767s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.768s] -- Looking for OGRE_Volume...
+[4.788s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.788s] -- Looking for OGRE_Overlay...
+[4.809s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.396s] -- Looking for ignition-math6 -- found version 6.8.0
+[5.429s] -- Looking for ignition-transport8 -- found version 8.2.0
+[5.430s] -- Searching for dependencies of ignition-transport8
+[5.592s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[5.717s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.743s] -- Checking for module 'libzmq >= 4'
+[5.892s] --   Found libzmq , version 4.3.2
+[6.298s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[6.346s] -- Checking for module 'uuid'
+[6.495s] --   Found uuid, version 2.34.0
+[6.892s] -- Found UUID: TRUE  
+[6.933s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[6.935s] -- Searching for dependencies of ignition-msgs5
+[7.139s] -- Looking for ignition-math6 -- found version 6.8.0
+[7.163s] -- Checking for module 'tinyxml2'
+[7.346s] --   Found tinyxml2, version 6.2.0
+[7.608s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[7.629s] -- Looking for ignition-common3 -- found version 3.13.1
+[7.631s] -- Searching for dependencies of ignition-common3
+[7.633s] -- Looking for dlfcn.h - found
+[7.636s] -- Looking for libdl - found
+[7.642s] -- Found DL: TRUE  
+[7.683s] -- Searching for <ignition-common3> component [graphics]
+[7.702s] -- Looking for ignition-common3-graphics -- found version 3.13.1
+[7.704s] -- Searching for dependencies of ignition-common3-graphics
+[7.725s] -- Looking for ignition-math6 -- found version 6.8.0
+[7.758s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[7.759s] -- Searching for dependencies of ignition-fuel_tools4
+[8.264s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[8.301s] -- Checking for module 'jsoncpp'
+[8.382s] --   Found jsoncpp, version 1.7.4
+[8.655s] -- Found JSONCPP: TRUE  
+[8.687s] -- Checking for module 'libzip'
+[8.767s] --   Found libzip, version 1.5.1
+[9.126s] -- Found ZIP: TRUE  
+[9.134s] -- Looking for ignition-common3 -- found version 3.13.1
+[9.136s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[9.171s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[9.297s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[9.301s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.310s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[10.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.662s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.479s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.695s] -- Found FastRTPS: /opt/ros/foxy/include  
+[12.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.921s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[12.926s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.932s] -- Found Threads: TRUE  
+[13.685s] -- Gazebo version: 11.5
+[13.949s] -- Configuring done
+[13.962s] -- Generating done
+[13.970s] -- Build files have been written to: /opt/persistent_ws/build/dynamic_logistics_warehouse
+[14.009s] Invoked command in '/opt/persistent_ws/build/dynamic_logistics_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /opt/persistent_ws/src/dynamic_logistics_warehouse -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/dynamic_logistics_warehouse
+[14.013s] Invoking command in '/opt/persistent_ws/build/dynamic_logistics_warehouse': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /opt/persistent_ws/build/dynamic_logistics_warehouse -- -j8 -l8
+[14.328s] Invoked command in '/opt/persistent_ws/build/dynamic_logistics_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /opt/persistent_ws/build/dynamic_logistics_warehouse -- -j8 -l8
+[14.580s] Invoking command in '/opt/persistent_ws/build/dynamic_logistics_warehouse': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /opt/persistent_ws/build/dynamic_logistics_warehouse
+[14.626s] -- Install configuration: ""
+[14.627s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//launch
+[14.627s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//launch/logistics_warehouse.launch
+[14.627s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models
+[14.627s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01
+[14.628s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[14.628s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/meshes
+[14.629s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[14.629s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[14.630s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/materials
+[14.630s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/materials/textures
+[14.631s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[14.641s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[14.644s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[14.646s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[14.649s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[14.655s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_DeskC_01/model.config
+[14.655s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01
+[14.656s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[14.657s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[14.658s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[14.659s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[14.673s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01/materials
+[14.678s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[14.679s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[14.691s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[14.697s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[14.701s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_TrashCanC_01
+[14.701s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[14.709s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_TrashCanC_01/meshes
+[14.710s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[14.710s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[14.710s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_TrashCanC_01/materials
+[14.711s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+[14.711s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[14.711s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[14.712s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01
+[14.712s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[14.713s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/meshes
+[14.714s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[14.714s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[14.715s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/materials
+[14.716s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+[14.716s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[14.716s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[14.719s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[14.723s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[14.730s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfE_01/model.config
+[14.730s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_WallB_01
+[14.731s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_WallB_01/model.sdf
+[14.731s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_WallB_01/meshes
+[14.731s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[14.732s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[14.732s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_WallB_01/materials
+[14.733s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_WallB_01/materials/textures
+[14.733s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[14.734s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_WallB_01/model.config
+[14.737s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_RoofB_01
+[14.738s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[14.738s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_RoofB_01/meshes
+[14.738s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[14.739s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[14.745s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_RoofB_01/materials
+[14.745s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_RoofB_01/materials/textures
+[14.746s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[14.746s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_RoofB_01/model.config
+[14.747s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01
+[14.747s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[14.747s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01/meshes
+[14.748s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[14.748s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[14.748s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01/materials
+[14.750s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+[14.752s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[14.753s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[14.754s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[14.755s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01
+[14.755s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[14.757s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01/meshes
+[14.758s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[14.758s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[14.761s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01/materials
+[14.761s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+[14.762s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[14.765s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[14.765s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[14.766s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01
+[14.766s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[14.772s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01/meshes
+[14.772s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[14.773s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[14.774s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01/materials
+[14.775s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01/materials/textures
+[14.775s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[14.777s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[14.798s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_GroundB_01/model.config
+[14.801s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfD_01
+[14.801s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[14.808s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfD_01/materials
+[14.808s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+[14.809s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[14.809s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[14.817s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[14.819s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[14.822s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfD_01/model.config
+[14.825s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01
+[14.826s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[14.826s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/meshes
+[14.826s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[14.827s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[14.831s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/materials
+[14.832s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+[14.832s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[14.845s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[14.853s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[14.860s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ShelfF_01/model.config
+[14.861s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01
+[14.861s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[14.866s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/meshes
+[14.866s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[14.874s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[14.876s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/materials
+[14.876s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+[14.877s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[14.881s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[14.887s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[14.894s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[14.895s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_Lamp_01
+[14.895s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[14.897s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_Lamp_01/meshes
+[14.897s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[14.901s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[14.913s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_Lamp_01/materials
+[14.913s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_Lamp_01/materials/textures
+[14.914s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[14.914s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//models/aws_robomaker_warehouse_Lamp_01/model.config
+[14.915s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//rviz
+[14.915s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//rviz/basic_data.rviz
+[14.915s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//worlds
+[14.916s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//worlds/warehouse.world
+[14.923s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//maps
+[14.924s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//maps/005
+[14.925s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//maps/005/map.pgm
+[14.943s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//maps/005/map_rotated.pgm
+[14.943s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//maps/005/map.yaml
+[14.945s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//maps/005/map_rotated.png
+[14.947s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//maps/002
+[14.947s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//maps/002/map.pgm
+[14.978s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse//maps/002/map.yaml
+[14.981s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/ament_index/resource_index/package_run_dependencies/dynamic_logistics_warehouse
+[14.982s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/ament_index/resource_index/parent_prefix_path/dynamic_logistics_warehouse
+[14.982s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/environment/ament_prefix_path.sh
+[14.983s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/environment/ament_prefix_path.dsv
+[14.983s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/environment/path.sh
+[14.984s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/environment/path.dsv
+[14.997s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/local_setup.bash
+[15.006s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/local_setup.sh
+[15.008s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/local_setup.zsh
+[15.009s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/local_setup.dsv
+[15.009s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.dsv
+[15.009s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/ament_index/resource_index/packages/dynamic_logistics_warehouse
+[15.021s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/cmake/dynamic_logistics_warehouseConfig.cmake
+[15.022s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/cmake/dynamic_logistics_warehouseConfig-version.cmake
+[15.022s] -- Installing: /opt/persistent_ws/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.xml
+[15.036s] Invoked command in '/opt/persistent_ws/build/dynamic_logistics_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /opt/persistent_ws/build/dynamic_logistics_warehouse

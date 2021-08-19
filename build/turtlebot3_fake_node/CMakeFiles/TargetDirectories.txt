@@ -1,0 +1,10 @@
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/install/strip.dir
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/install/local.dir
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/edit_cache.dir
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/test.dir
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/turtlebot3_fake_node.dir
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/install.dir
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/list_install_components.dir
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/rebuild_cache.dir
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/turtlebot3_fake_node_uninstall.dir
+/opt/persistent_ws/build/turtlebot3_fake_node/CMakeFiles/uninstall.dir

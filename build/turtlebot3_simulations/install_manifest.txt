@@ -1,0 +1,15 @@
+/opt/persistent_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+/opt/persistent_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+/opt/persistent_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+/opt/persistent_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml

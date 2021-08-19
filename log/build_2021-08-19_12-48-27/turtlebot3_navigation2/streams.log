@@ -1,0 +1,53 @@
+[0.091s] Invoking command in '/opt/persistent_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /opt/persistent_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/turtlebot3_navigation2
+[2.588s] -- The C compiler identification is GNU 9.3.0
+[2.591s] -- The CXX compiler identification is GNU 9.3.0
+[2.592s] -- Check for working C compiler: /usr/bin/cc
+[2.597s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.598s] -- Detecting C compiler ABI info
+[2.599s] -- Detecting C compiler ABI info - done
+[2.600s] -- Detecting C compile features
+[2.601s] -- Detecting C compile features - done
+[2.601s] -- Check for working CXX compiler: /usr/bin/c++
+[2.601s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.602s] -- Detecting CXX compiler ABI info
+[2.602s] -- Detecting CXX compiler ABI info - done
+[2.603s] -- Detecting CXX compile features
+[2.603s] -- Detecting CXX compile features - done
+[2.603s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.603s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.604s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.604s] -- Configuring done
+[2.604s] -- Generating done
+[2.604s] -- Build files have been written to: /opt/persistent_ws/build/turtlebot3_navigation2
+[2.647s] Invoked command in '/opt/persistent_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /opt/persistent_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/turtlebot3_navigation2
+[2.649s] Invoking command in '/opt/persistent_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /opt/persistent_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[2.741s] Invoked command in '/opt/persistent_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /opt/persistent_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[2.842s] Invoking command in '/opt/persistent_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /opt/persistent_ws/build/turtlebot3_navigation2
+[2.906s] -- Install configuration: ""
+[2.907s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[2.907s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[2.907s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[2.908s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[2.908s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[2.908s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[2.917s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[2.918s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[2.918s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[2.918s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[2.919s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[2.919s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[2.923s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[2.923s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[2.926s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[2.926s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[2.926s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[2.927s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[2.927s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[2.927s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[2.927s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[2.928s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[2.929s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[2.930s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[2.930s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[2.930s] -- Installing: /opt/persistent_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[2.970s] Invoked command in '/opt/persistent_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /opt/persistent_ws/build/turtlebot3_navigation2

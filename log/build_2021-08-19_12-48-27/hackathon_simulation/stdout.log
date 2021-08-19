@@ -1,0 +1,214 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.88
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "5.0.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Looking for ignition-transport8 -- found version 8.2.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.7.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.7.0
+-- Looking for ignition-common3 -- found version 3.13.1
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.13.1
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Looking for ignition-fuel_tools4 -- found version 4.3.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.13.1
+-- Looking for ignition-msgs5 -- found version 5.7.0
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/persistent_ws/build/hackathon_simulation
+-- Install configuration: ""
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//launch
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//launch/sample.launch.py
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//launch/robot_state_publisher.launch.py
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/model.sdf
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/meshes
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/meshes/shelves_high2.dae
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/materials
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/materials/textures
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/materials/textures/__CorrogateShiny_.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/model.config
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/model.sdf
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/meshes
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/meshes/big_box.dae
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/side1.pdn
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/barcode.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/front.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/front.pdn
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/side2.pdn
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/Kraft_Tile.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/side1.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/side2.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/model.config
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/model.sdf
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/meshes
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/meshes/europallet.dae
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/materials
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/materials/textures
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/materials/textures/Wood_Grain_Dark.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/model.config
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/3.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/5.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/1.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/2.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/4.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/model.sdf
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/meshes
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/meshes/casual_female.dae
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/casual_female.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/eyelashes01.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/shoes05_diffuse.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/tongue01_diffuse.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/female_casualsuit01_diffuse.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/female_casualsuit01_normal.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/young_lightskinned_female_diffuse.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/female_casualsuit02_normal.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/female_casualsuit02_diffuse.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/eyebrow002.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/brown_eye.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/ponytail01_diffuse.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/model.config
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/model.sdf
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/meshes
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/meshes/big_box.dae
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/side1.pdn
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/barcode.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/front.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/front.pdn
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/side2.pdn
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/Kraft_Tile.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/side1.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/side2.png
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/model.config
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/warehouse
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/warehouse/model.sdf
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/warehouse/model.config
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/model.sdf
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/meshes
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/meshes/shelves_high2_collision.dae
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/meshes/shelves_high2.dae
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/materials
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/materials/textures
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/materials/textures/__CorrogateShiny_.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/model.config
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/pallet_full
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/pallet_full/model.sdf
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/pallet_full/model.config
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/model.sdf
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/meshes
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/meshes/small_box.dae
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/S-3878BX_Side1.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/Kraft_Tile.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/S-3878BX_Side2.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/S-3878BX_Front.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/S-3878BX_Back.jpg
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/model.config
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//rviz
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//rviz/simulation.rviz
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//worlds
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//worlds/warehouse.world
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/ament_index/resource_index/package_run_dependencies/hackathon_simulation
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/ament_index/resource_index/parent_prefix_path/hackathon_simulation
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/environment/ament_prefix_path.sh
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/environment/ament_prefix_path.dsv
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/environment/path.sh
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/environment/path.dsv
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/local_setup.bash
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/local_setup.sh
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/local_setup.zsh
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/local_setup.dsv
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/package.dsv
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/ament_index/resource_index/packages/hackathon_simulation
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/cmake/hackathon_simulationConfig.cmake
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/cmake/hackathon_simulationConfig-version.cmake
+-- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/package.xml

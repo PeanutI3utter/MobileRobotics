@@ -1,0 +1,50 @@
+[0.028s] Invoking command in '/opt/persistent_ws/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /opt/persistent_ws/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/turtlebot3_bringup
+[0.136s] -- The C compiler identification is GNU 9.3.0
+[0.252s] -- The CXX compiler identification is GNU 9.3.0
+[0.262s] -- Check for working C compiler: /usr/bin/cc
+[0.398s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.401s] -- Detecting C compiler ABI info
+[0.536s] -- Detecting C compiler ABI info - done
+[0.560s] -- Detecting C compile features
+[0.561s] -- Detecting C compile features - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++
+[0.725s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.727s] -- Detecting CXX compiler ABI info
+[0.886s] -- Detecting CXX compiler ABI info - done
+[0.913s] -- Detecting CXX compile features
+[0.915s] -- Detecting CXX compile features - done
+[0.924s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.983s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.983s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.539s] -- Configuring done
+[1.543s] -- Generating done
+[1.544s] -- Build files have been written to: /opt/persistent_ws/build/turtlebot3_bringup
+[1.550s] Invoked command in '/opt/persistent_ws/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /opt/persistent_ws/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/turtlebot3_bringup
+[1.554s] Invoking command in '/opt/persistent_ws/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/persistent_ws/build/turtlebot3_bringup -- -j8 -l8
+[1.633s] Invoked command in '/opt/persistent_ws/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/persistent_ws/build/turtlebot3_bringup -- -j8 -l8
+[1.674s] Invoking command in '/opt/persistent_ws/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/persistent_ws/build/turtlebot3_bringup
+[1.694s] -- Install configuration: ""
+[1.694s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch
+[1.695s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
+[1.697s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+[1.697s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
+[1.697s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param
+[1.697s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+[1.698s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
+[1.698s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+[1.698s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+[1.699s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+[1.699s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+[1.700s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+[1.700s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+[1.700s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+[1.701s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+[1.701s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+[1.702s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+[1.702s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+[1.702s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+[1.703s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+[1.703s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+[1.703s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+[1.704s] -- Installing: /opt/persistent_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml
+[1.710s] Invoked command in '/opt/persistent_ws/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_node:/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/turtlebot3_description:/opt/persistent_ws/install/hls_lfcd_lds_driver:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/persistent_ws/build/turtlebot3_bringup

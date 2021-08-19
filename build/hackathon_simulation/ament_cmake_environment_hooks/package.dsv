@@ -1,0 +1,4 @@
+source;share/hackathon_simulation/local_setup.bash
+source;share/hackathon_simulation/local_setup.dsv
+source;share/hackathon_simulation/local_setup.sh
+source;share/hackathon_simulation/local_setup.zsh

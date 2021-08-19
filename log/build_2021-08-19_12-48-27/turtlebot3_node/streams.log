@@ -1,0 +1,93 @@
+[0.112s] Invoking command in '/opt/persistent_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /opt/persistent_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/turtlebot3_node
+[0.433s] -- The C compiler identification is GNU 9.3.0
+[0.701s] -- The CXX compiler identification is GNU 9.3.0
+[0.717s] -- Check for working C compiler: /usr/bin/cc
+[0.965s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.967s] -- Detecting C compiler ABI info
+[1.358s] -- Detecting C compiler ABI info - done
+[1.412s] -- Detecting C compile features
+[1.413s] -- Detecting C compile features - done
+[1.426s] -- Check for working CXX compiler: /usr/bin/c++
+[1.837s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.841s] -- Detecting CXX compiler ABI info
+[2.210s] -- Detecting CXX compiler ABI info - done
+[2.299s] -- Detecting CXX compile features
+[2.300s] -- Detecting CXX compile features - done
+[2.324s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.482s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.483s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.378s] -- Found dynamixel_sdk: 3.7.40 (/opt/persistent_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[3.401s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.668s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.033s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.180s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.976s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[4.997s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.354s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.583s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.594s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.598s] -- Looking for pthread.h
+[5.934s] -- Looking for pthread.h - found
+[5.936s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.267s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.268s] -- Looking for pthread_create in pthreads
+[6.465s] -- Looking for pthread_create in pthreads - not found
+[6.465s] -- Looking for pthread_create in pthread
+[6.630s] -- Looking for pthread_create in pthread - found
+[6.633s] -- Found Threads: TRUE  
+[7.102s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.358s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[7.396s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[7.436s] -- Found tf2_ros: 0.13.10 (/opt/ros/foxy/share/tf2_ros/cmake)
+[8.707s] -- Found turtlebot3_msgs: 2.2.1 (/opt/persistent_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[9.293s] -- Configuring done
+[9.380s] -- Generating done
+[9.386s] -- Build files have been written to: /opt/persistent_ws/build/turtlebot3_node
+[9.404s] Invoked command in '/opt/persistent_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /opt/persistent_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/turtlebot3_node
+[9.406s] Invoking command in '/opt/persistent_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/persistent_ws/build/turtlebot3_node -- -j8 -l8
+[9.504s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[9.720s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[15.274s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[20.298s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[21.536s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[23.559s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[24.586s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[24.587s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[25.625s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[25.629s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[25.953s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[28.556s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[48.233s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[48.875s] [ 85%] Built target turtlebot3_node_lib
+[48.897s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[49.000s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[53.506s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[55.563s] [100%] Built target turtlebot3_ros
+[55.585s] Invoked command in '/opt/persistent_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/persistent_ws/build/turtlebot3_node -- -j8 -l8
+[55.671s] Invoking command in '/opt/persistent_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/persistent_ws/build/turtlebot3_node
+[55.687s] -- Install configuration: ""
+[55.688s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[55.688s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[55.690s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[55.690s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[55.691s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[55.710s] -- Set runtime path of "/opt/persistent_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[55.710s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[55.711s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[55.711s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[55.711s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[55.711s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[55.712s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[55.712s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[55.712s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[55.712s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[55.713s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[55.713s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[55.714s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[55.714s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.714s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[55.714s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[55.715s] -- Installing: /opt/persistent_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[55.718s] Invoked command in '/opt/persistent_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_msgs:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/turtlebot3_msgs/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/persistent_ws/build/turtlebot3_node

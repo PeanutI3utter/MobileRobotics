@@ -1,0 +1,78 @@
+[0.073s] Invoking command in '/opt/persistent_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /opt/persistent_ws/src/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/dynamixel_sdk_examples
+[0.319s] -- The C compiler identification is GNU 9.3.0
+[0.501s] -- The CXX compiler identification is GNU 9.3.0
+[0.518s] -- Check for working C compiler: /usr/bin/cc
+[0.745s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.749s] -- Detecting C compiler ABI info
+[0.963s] -- Detecting C compiler ABI info - done
+[1.004s] -- Detecting C compile features
+[1.006s] -- Detecting C compile features - done
+[1.016s] -- Check for working CXX compiler: /usr/bin/c++
+[1.343s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.352s] -- Detecting CXX compiler ABI info
+[1.705s] -- Detecting CXX compiler ABI info - done
+[1.760s] -- Detecting CXX compile features
+[1.763s] -- Detecting CXX compile features - done
+[1.797s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.917s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.917s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.780s] -- Found dynamixel_sdk: 3.7.40 (/opt/persistent_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.787s] -- Found dynamixel_sdk_custom_interfaces: 3.7.40 (/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[2.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.075s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.673s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.891s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.785s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.069s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.075s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.103s] -- Looking for pthread.h
+[5.392s] -- Looking for pthread.h - found
+[5.393s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.622s] -- Looking for pthread_create in pthreads
+[5.812s] -- Looking for pthread_create in pthreads - not found
+[5.812s] -- Looking for pthread_create in pthread
+[6.045s] -- Looking for pthread_create in pthread - found
+[6.050s] -- Found Threads: TRUE  
+[6.838s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.255s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.259s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.260s] -- Configured cppcheck include dirs: /opt/persistent_ws/src/DynamixelSDK/dynamixel_sdk_examples/include
+[7.260s] -- Configured cppcheck exclude dirs and/or files: 
+[7.266s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.267s] -- Configured cpplint exclude dirs and/or files: 
+[7.269s] -- Added test 'lint_cmake' to check CMake code style
+[7.274s] -- Added test 'uncrustify' to check C / C++ code style
+[7.275s] -- Configured uncrustify additional arguments: 
+[7.277s] -- Added test 'xmllint' to check XML markup files
+[7.289s] -- Configuring done
+[7.317s] -- Generating done
+[7.325s] -- Build files have been written to: /opt/persistent_ws/build/dynamixel_sdk_examples
+[7.357s] Invoked command in '/opt/persistent_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /opt/persistent_ws/src/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/dynamixel_sdk_examples
+[7.359s] Invoking command in '/opt/persistent_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/persistent_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[7.505s] [35m[1mScanning dependencies of target read_write_node[0m
+[7.658s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[23.872s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[24.775s] [100%] Built target read_write_node
+[24.815s] Invoked command in '/opt/persistent_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/persistent_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[24.908s] Invoking command in '/opt/persistent_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/persistent_ws/build/dynamixel_sdk_examples
+[24.945s] -- Install configuration: ""
+[24.946s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[24.953s] -- Set runtime path of "/opt/persistent_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""
+[24.954s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[24.954s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[24.958s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[24.961s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[24.962s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[24.962s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[24.962s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[24.963s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[24.963s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[24.964s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[24.964s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[24.964s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[24.965s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[24.965s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[24.965s] -- Installing: /opt/persistent_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[24.979s] Invoked command in '/opt/persistent_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces:/opt/persistent_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/persistent_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/persistent_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/persistent_ws/build/dynamixel_sdk_examples

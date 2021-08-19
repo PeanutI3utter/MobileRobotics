@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/opt/persistent_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/opt/persistent_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/opt/persistent_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/opt/persistent_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/opt/persistent_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/opt/persistent_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

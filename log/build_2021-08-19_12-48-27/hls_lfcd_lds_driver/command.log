@@ -1,0 +1,6 @@
+Invoking command in '/opt/persistent_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /opt/persistent_ws/src/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/hls_lfcd_lds_driver
+Invoked command in '/opt/persistent_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /opt/persistent_ws/src/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/hls_lfcd_lds_driver
+Invoking command in '/opt/persistent_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /opt/persistent_ws/build/hls_lfcd_lds_driver -- -j8 -l8
+Invoked command in '/opt/persistent_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /opt/persistent_ws/build/hls_lfcd_lds_driver -- -j8 -l8
+Invoking command in '/opt/persistent_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /opt/persistent_ws/build/hls_lfcd_lds_driver
+Invoked command in '/opt/persistent_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /opt/persistent_ws/build/hls_lfcd_lds_driver

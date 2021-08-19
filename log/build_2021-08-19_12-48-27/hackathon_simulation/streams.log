@@ -1,0 +1,220 @@
+[0.017s] Invoking command in '/opt/persistent_ws/build/hackathon_simulation': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake /opt/persistent_ws/src/hackathon_simulation -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/hackathon_simulation
+[0.131s] -- The C compiler identification is GNU 9.3.0
+[0.245s] -- The CXX compiler identification is GNU 9.3.0
+[0.255s] -- Check for working C compiler: /usr/bin/cc
+[0.392s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.395s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.564s] -- Detecting C compile features
+[0.564s] -- Detecting C compile features - done
+[0.570s] -- Check for working CXX compiler: /usr/bin/c++
+[0.730s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.732s] -- Detecting CXX compiler ABI info
+[0.893s] -- Detecting CXX compiler ABI info - done
+[0.940s] -- Detecting CXX compile features
+[0.942s] -- Detecting CXX compile features - done
+[0.960s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.972s] -- Checking for module 'bullet>=2.82'
+[1.007s] --   Found bullet, version 2.88
+[1.325s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.463s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.611s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.691s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.352s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.397s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.424s] -- Looking for ignition-math6 -- found version 6.8.0
+[2.448s] -- Searching for dependencies of ignition-math6
+[2.454s] -- Looking for OGRE...
+[2.456s] -- OGRE_PREFIX_WATCH changed.
+[2.469s] -- Checking for module 'OGRE'
+[2.505s] --   Found OGRE, version 1.9.0
+[2.593s] -- Found Ogre Ghadamon (1.9.0)
+[2.608s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.632s] -- Looking for OGRE_Paging...
+[2.644s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.645s] -- Looking for OGRE_Terrain...
+[2.655s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.656s] -- Looking for OGRE_Property...
+[2.667s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.667s] -- Looking for OGRE_RTShaderSystem...
+[2.678s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.678s] -- Looking for OGRE_Volume...
+[2.689s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.689s] -- Looking for OGRE_Overlay...
+[2.700s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.952s] -- Looking for ignition-math6 -- found version 6.8.0
+[2.961s] -- Looking for ignition-transport8 -- found version 8.2.0
+[2.962s] -- Searching for dependencies of ignition-transport8
+[3.015s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[3.056s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.066s] -- Checking for module 'libzmq >= 4'
+[3.101s] --   Found libzmq , version 4.3.2
+[3.196s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.208s] -- Checking for module 'uuid'
+[3.243s] --   Found uuid, version 2.34.0
+[3.336s] -- Found UUID: TRUE  
+[3.344s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[3.345s] -- Searching for dependencies of ignition-msgs5
+[3.403s] -- Looking for ignition-math6 -- found version 6.8.0
+[3.413s] -- Checking for module 'tinyxml2'
+[3.449s] --   Found tinyxml2, version 6.2.0
+[3.555s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[3.567s] -- Looking for ignition-common3 -- found version 3.13.1
+[3.568s] -- Searching for dependencies of ignition-common3
+[3.569s] -- Looking for dlfcn.h - found
+[3.571s] -- Looking for libdl - found
+[3.576s] -- Found DL: TRUE  
+[3.595s] -- Searching for <ignition-common3> component [graphics]
+[3.607s] -- Looking for ignition-common3-graphics -- found version 3.13.1
+[3.608s] -- Searching for dependencies of ignition-common3-graphics
+[3.610s] -- Looking for ignition-math6 -- found version 6.8.0
+[3.624s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[3.626s] -- Searching for dependencies of ignition-fuel_tools4
+[3.812s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[3.842s] -- Checking for module 'jsoncpp'
+[3.877s] --   Found jsoncpp, version 1.7.4
+[3.972s] -- Found JSONCPP: TRUE  
+[3.990s] -- Checking for module 'libzip'
+[4.028s] --   Found libzip, version 1.5.1
+[4.128s] -- Found ZIP: TRUE  
+[4.129s] -- Looking for ignition-common3 -- found version 3.13.1
+[4.131s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[4.142s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.205s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.205s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.663s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.872s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.906s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.910s] -- Added test 'lint_cmake' to check CMake code style
+[4.913s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.929s] -- Added test 'xmllint' to check XML markup files
+[4.936s] -- Configuring done
+[4.943s] -- Generating done
+[4.947s] -- Build files have been written to: /opt/persistent_ws/build/hackathon_simulation
+[4.960s] Invoked command in '/opt/persistent_ws/build/hackathon_simulation' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake /opt/persistent_ws/src/hackathon_simulation -DCMAKE_INSTALL_PREFIX=/opt/persistent_ws/install/hackathon_simulation
+[4.966s] Invoking command in '/opt/persistent_ws/build/hackathon_simulation': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake --build /opt/persistent_ws/build/hackathon_simulation -- -j8 -l8
+[5.053s] Invoked command in '/opt/persistent_ws/build/hackathon_simulation' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake --build /opt/persistent_ws/build/hackathon_simulation -- -j8 -l8
+[5.101s] Invoking command in '/opt/persistent_ws/build/hackathon_simulation': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake --install /opt/persistent_ws/build/hackathon_simulation
+[5.118s] -- Install configuration: ""
+[5.119s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//launch
+[5.119s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//launch/sample.launch.py
+[5.121s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//launch/robot_state_publisher.launch.py
+[5.121s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models
+[5.122s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision
+[5.122s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/model.sdf
+[5.122s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/meshes
+[5.122s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/meshes/shelves_high2.dae
+[5.137s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/materials
+[5.137s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/materials/textures
+[5.137s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/materials/textures/__CorrogateShiny_.jpg
+[5.138s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2_no_collision/model.config
+[5.138s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3
+[5.138s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/model.sdf
+[5.138s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/meshes
+[5.138s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/meshes/big_box.dae
+[5.139s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials
+[5.139s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures
+[5.140s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/side1.pdn
+[5.140s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/barcode.png
+[5.141s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/front.png
+[5.141s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/front.pdn
+[5.142s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/side2.pdn
+[5.142s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/Kraft_Tile.jpg
+[5.143s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/side1.png
+[5.143s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/materials/textures/side2.png
+[5.144s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box3/model.config
+[5.144s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet
+[5.144s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/model.sdf
+[5.145s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/meshes
+[5.145s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/meshes/europallet.dae
+[5.146s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/materials
+[5.146s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/materials/textures
+[5.147s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/materials/textures/Wood_Grain_Dark.jpg
+[5.147s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/europallet/model.config
+[5.148s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female
+[5.148s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails
+[5.148s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/3.png
+[5.149s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/5.png
+[5.149s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/1.png
+[5.150s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/2.png
+[5.151s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/thumbnails/4.png
+[5.151s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/model.sdf
+[5.152s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/meshes
+[5.152s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/meshes/casual_female.dae
+[5.169s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials
+[5.169s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures
+[5.170s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/casual_female.png
+[5.171s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/eyelashes01.png
+[5.172s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/shoes05_diffuse.png
+[5.178s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/tongue01_diffuse.png
+[5.181s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/female_casualsuit01_diffuse.png
+[5.193s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/female_casualsuit01_normal.png
+[5.216s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/young_lightskinned_female_diffuse.png
+[5.234s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/female_casualsuit02_normal.png
+[5.240s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/female_casualsuit02_diffuse.png
+[5.259s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/eyebrow002.png
+[5.260s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/brown_eye.png
+[5.264s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/materials/textures/ponytail01_diffuse.png
+[5.276s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/casual_female/model.config
+[5.277s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4
+[5.277s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/model.sdf
+[5.277s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/meshes
+[5.278s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/meshes/big_box.dae
+[5.278s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials
+[5.278s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures
+[5.279s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/side1.pdn
+[5.279s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/barcode.png
+[5.280s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/front.png
+[5.280s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/front.pdn
+[5.280s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/side2.pdn
+[5.281s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/Kraft_Tile.jpg
+[5.281s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/side1.png
+[5.282s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/materials/textures/side2.png
+[5.283s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/big_box4/model.config
+[5.283s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/warehouse
+[5.283s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/warehouse/model.sdf
+[5.284s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/warehouse/model.config
+[5.284s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2
+[5.284s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/model.sdf
+[5.284s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/meshes
+[5.284s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/meshes/shelves_high2_collision.dae
+[5.285s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/meshes/shelves_high2.dae
+[5.305s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/materials
+[5.306s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/materials/textures
+[5.306s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/materials/textures/__CorrogateShiny_.jpg
+[5.306s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/shelves_high2/model.config
+[5.307s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/pallet_full
+[5.307s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/pallet_full/model.sdf
+[5.307s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/pallet_full/model.config
+[5.308s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box
+[5.308s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/model.sdf
+[5.308s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/meshes
+[5.308s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/meshes/small_box.dae
+[5.309s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials
+[5.309s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures
+[5.309s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/S-3878BX_Side1.jpg
+[5.311s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/Kraft_Tile.jpg
+[5.311s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/S-3878BX_Side2.jpg
+[5.312s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/S-3878BX_Front.jpg
+[5.313s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/materials/textures/S-3878BX_Back.jpg
+[5.314s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//models/small_box/model.config
+[5.315s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//rviz
+[5.315s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//rviz/simulation.rviz
+[5.315s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//worlds
+[5.315s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation//worlds/warehouse.world
+[5.316s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/ament_index/resource_index/package_run_dependencies/hackathon_simulation
+[5.317s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/ament_index/resource_index/parent_prefix_path/hackathon_simulation
+[5.317s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/environment/ament_prefix_path.sh
+[5.317s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/environment/ament_prefix_path.dsv
+[5.318s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/environment/path.sh
+[5.318s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/environment/path.dsv
+[5.319s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/local_setup.bash
+[5.319s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/local_setup.sh
+[5.320s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/local_setup.zsh
+[5.320s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/local_setup.dsv
+[5.320s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/package.dsv
+[5.321s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/ament_index/resource_index/packages/hackathon_simulation
+[5.321s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/cmake/hackathon_simulationConfig.cmake
+[5.322s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/cmake/hackathon_simulationConfig-version.cmake
+[5.322s] -- Installing: /opt/persistent_ws/install/hackathon_simulation/share/hackathon_simulation/package.xml
+[5.330s] Invoked command in '/opt/persistent_ws/build/hackathon_simulation' returned '0': AMENT_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/persistent_ws/install/turtlebot3_gazebo:/opt/persistent_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake --install /opt/persistent_ws/build/hackathon_simulation
